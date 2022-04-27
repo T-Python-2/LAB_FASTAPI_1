@@ -1,7 +1,7 @@
 # LAB_FASTAPI_1
 
 
-# Create an API to get info about students:
+# Create a new project that has API to get info about students:
 
 - Student Name
 - GPA
