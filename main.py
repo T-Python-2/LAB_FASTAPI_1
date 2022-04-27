@@ -12,8 +12,8 @@ def getStudents():
 
 @app.get("/student/gpa/{student_name}")
 def get_student_gpa(student_name):
-    gpa = next((student.get_gpa() for student in students_list if student.get_student_name() == student_name),f"Error: There is no student named {student_name}")
-    return f"{student_name}'s GPA is {gpa}"
+    gpa = next((f"{student_name}'s GPA is {student.get_gpa()}" for student in students_list if student.get_student_name() == student_name),f"Error: There is no student named {student_name}")
+    return gpa
     # found = False
     # for student in students_list:
     #     if student.get_student_name() == student_name:
