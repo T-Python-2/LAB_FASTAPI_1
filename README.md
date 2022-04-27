@@ -14,3 +14,6 @@
 
 ## Note
 You should have at least 5 students.
+
+### hint
+Don't forget to use curly brances {student_name} to create a path parameter. 
